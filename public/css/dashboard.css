@@ -1,0 +1,26 @@
+/* ✅ Add color coding for severity */
+.low-severity { color: green; font-weight: bold; }
+.medium-severity { color: orange; font-weight: bold; }
+.high-severity { color: red; font-weight: bold; }
+
+/* ✅ Improve table styling */
+#analytics-table td, #analytics-table th {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.logout-btn {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.logout-btn:hover {
+    background: #cc0000;
+}
